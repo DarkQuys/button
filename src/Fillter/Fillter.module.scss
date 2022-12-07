@@ -1,0 +1,36 @@
+// .container{
+
+// }
+.barbutton {
+    height: 30px;
+    width: 120px;
+    background: #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: #ccc;
+    height: 30px;
+}
+.cardcontainer {
+    padding-top: 10px;
+    display: none;
+}
+.container {
+    :hover {
+        .cardcontainer {
+            display: block;
+        }
+    }
+}

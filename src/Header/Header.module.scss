@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background: #ccc;
+}
+.button {
+    display: flex;
+    background: #ccc;
+    width: 40px;
+    height: 17px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.input {
+    height: 0;
+    width: 0;
+}
+.input:checked ~ .sun {
+    transform: translateX(17px);
+    color: black;
+}
+.input:checked ~ .ball {
+    transform: translateX(-17px);
+}
+.darklight {
+    color: red;
+}

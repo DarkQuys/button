@@ -1,0 +1,15 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+.iconsearch {
+    background: #ccc;
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 4px;
+    &:hover {
+        opacity: 0.8;
+    }
+}
